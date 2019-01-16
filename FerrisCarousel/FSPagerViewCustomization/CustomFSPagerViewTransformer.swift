@@ -11,10 +11,10 @@ import UIKit
 final class CustomFSPagerViewTransformer: FSPagerViewTransformer {
     
     override func applyTransform(to attributes: FSPagerViewLayoutAttributes) {
-        guard let pagerView = self.pagerView else {
+        guard let pagerView = pagerView else {
             return
         }
-        switch self.type {
+        switch type {
         case .invertedFerrisWheelWithScaling:
             guard pagerView.scrollDirection == .horizontal else {
                 // This type doesn't support vertical mode
@@ -23,11 +23,11 @@ final class CustomFSPagerViewTransformer: FSPagerViewTransformer {
             // http://ronnqvi.st/translate-rotate-translate/
             var zIndex = 0
             let position = attributes.position
-            let scale = max(1 - (1-self.minimumScale) * abs(position), self.minimumScale)
+            let scale = max(1 - (1 - minimumScale) * abs(position), minimumScale)
             var transform = CGAffineTransform(scaleX: scale, y: scale)
             switch position {
             case -5 ... 5:
-                let itemSpacing = attributes.bounds.width+self.proposedInteritemSpacing()
+                let itemSpacing = attributes.bounds.width + proposedInteritemSpacing()
                 let count: CGFloat = 14
                 let circle: CGFloat = .pi * 2.0
                 let radius = itemSpacing * count / circle
@@ -41,11 +41,17 @@ final class CustomFSPagerViewTransformer: FSPagerViewTransformer {
             default:
                 break
             }
-            attributes.alpha = abs(position) < 0.5 ? 1 : self.minimumAlpha
+            attributes.alpha = abs(position) < 0.5 ? 1 : minimumAlpha
             attributes.transform = transform
             attributes.zIndex = zIndex
         default:
             super.applyTransform(to: attributes)
         }
+    }
+
+    override func proposedInteritemSpacing() -> CGFloat {
+        // if you need to control item spacing, return a value from here
+        // super class will return default value (0, because super class doesn't handle .invertedFerrisWheelWithScaling type)
+        return super.proposedInteritemSpacing()
     }
 }

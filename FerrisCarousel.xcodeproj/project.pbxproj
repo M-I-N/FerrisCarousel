@@ -12,6 +12,14 @@
 		AFAC506621EF04D9005E4155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506421EF04D9005E4155 /* Main.storyboard */; };
 		AFAC506821EF04E1005E4155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506721EF04E1005E4155 /* Assets.xcassets */; };
 		AFAC506B21EF04E1005E4155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */; };
+		AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507321EF0596005E4155 /* FSPagerView.swift */; };
+		AFAC507D21EF0596005E4155 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507421EF0596005E4155 /* FSPageViewTransformer.swift */; };
+		AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */; };
+		AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */; };
+		AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */; };
+		AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507921EF0596005E4155 /* FSPageControl.swift */; };
+		AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */; };
+		AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,15 @@
 		AFAC506721EF04E1005E4155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAC506A21EF04E1005E4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAC506C21EF04E1005E4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAC507321EF0596005E4155 /* FSPagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerView.swift; sourceTree = "<group>"; };
+		AFAC507421EF0596005E4155 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		AFAC507521EF0596005E4155 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewCell.swift; sourceTree = "<group>"; };
+		AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewLayout.swift; sourceTree = "<group>"; };
+		AFAC507921EF0596005E4155 /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
+		AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
+		AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 		AFAC505F21EF04D9005E4155 /* FerrisCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				AFAC507221EF0596005E4155 /* FSPagerView */,
 				AFAC506021EF04D9005E4155 /* AppDelegate.swift */,
 				AFAC506221EF04D9005E4155 /* ViewController.swift */,
 				AFAC506421EF04D9005E4155 /* Main.storyboard */,
@@ -62,6 +80,22 @@
 				AFAC506C21EF04E1005E4155 /* Info.plist */,
 			);
 			path = FerrisCarousel;
+			sourceTree = "<group>";
+		};
+		AFAC507221EF0596005E4155 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC507321EF0596005E4155 /* FSPagerView.swift */,
+				AFAC507421EF0596005E4155 /* FSPageViewTransformer.swift */,
+				AFAC507521EF0596005E4155 /* FSPagerViewObjcCompat.h */,
+				AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */,
+				AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */,
+				AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */,
+				AFAC507921EF0596005E4155 /* FSPageControl.swift */,
+				AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */,
+				AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */,
+			);
+			path = FSPagerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +171,14 @@
 			files = (
 				AFAC506321EF04D9005E4155 /* ViewController.swift in Sources */,
 				AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */,
+				AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */,
+				AFAC507D21EF0596005E4155 /* FSPageViewTransformer.swift in Sources */,
+				AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */,
+				AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */,
+				AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */,
+				AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */,
+				AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */,
+				AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

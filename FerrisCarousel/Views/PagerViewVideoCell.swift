@@ -10,7 +10,16 @@ import UIKit
 
 class PagerViewVideoCell: FSPagerViewCell {
     
-    @IBOutlet weak var thumbnailImageView: UIImageView!
+    var video: Video? {
+        didSet {
+            if let video = video {
+                thumbnailImageView.downloaded(from: video.thumbnailImageURL, contentMode: .scaleToFill)
+                videoPlayerViewController.video = video
+            }
+        }
+    }
+    
+    @IBOutlet private weak var thumbnailImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

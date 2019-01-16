@@ -42,7 +42,7 @@ extension HomeViewController: FSPagerViewDataSource {
     func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
         let cell = PagerViewVideoCell.dequeue(fromPagerView: pagerView, atIndex: index)
         let video = videos[index]
-        cell.thumbnailImageView.downloaded(from: video.thumbnailImageURL, contentMode: .scaleToFill)
+        cell.video = video
         return cell
     }
 }

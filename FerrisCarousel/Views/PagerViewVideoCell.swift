@@ -14,7 +14,6 @@ class PagerViewVideoCell: FSPagerViewCell {
         didSet {
             if let video = video {
                 thumbnailImageView.downloaded(from: video.thumbnailImageURL, contentMode: .scaleToFill)
-                videoPlayerViewController.video = video
             }
         }
     }

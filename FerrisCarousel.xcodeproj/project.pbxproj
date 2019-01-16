@@ -28,6 +28,7 @@
 		AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */; };
 		AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7754E21EF714B00CA7E11 /* Video.swift */; };
 		AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */; };
+		AFC7755321EF805700CA7E11 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFSPagerViewTransformer.swift; sourceTree = "<group>"; };
 		AFC7754E21EF714B00CA7E11 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				AFAC506221EF04D9005E4155 /* HomeViewController.swift */,
+				AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */,
 				AF50F42A21EF373E001F53FA /* UICollectionView+Reusable.swift in Sources */,
 				AFAC506321EF04D9005E4155 /* HomeViewController.swift in Sources */,
+				AFC7755321EF805700CA7E11 /* VideoPlayerViewController.swift in Sources */,
 				AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */,
 				AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */,
 				AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */,

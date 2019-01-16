@@ -20,15 +20,21 @@ class HomeViewController: UIViewController {
             let transform = CGAffineTransform(scaleX: 0.5, y: 1.0)
             pagerView.itemSize = pagerView.frame.size.applying(transform)
             pagerView.decelerationDistance = FSPagerView.automaticDistance
-            pagerView.isInfinite = true
+//            pagerView.isInfinite = true
 
             pagerView.dataSource = self
+            pagerView.delegate = self
         }
     }
 
+    private var token: NSKeyValueObservation?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        token = pagerView.observe(\.currentIndex) { (pagerView, _) in
+//            print(pagerView.currentIndex)
+//        }
     }
 
 
@@ -44,5 +50,22 @@ extension HomeViewController: FSPagerViewDataSource {
         let video = videos[index]
         cell.video = video
         return cell
+    }
+}
+
+extension HomeViewController: FSPagerViewDelegate {
+    func pagerView(_ pagerView: FSPagerView, willDisplay cell: FSPagerViewCell, forItemAt index: Int) {
+        guard let pagerViewVideoCell = cell as? PagerViewVideoCell else { return }
+        pagerViewVideoCell.addViewController(to: self)
+    }
+    func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
+        guard let pagerViewVideoCell = cell as? PagerViewVideoCell else { return }
+        pagerViewVideoCell.removeViewControllerFromParentController()
+    }
+    
+    func pagerViewWillEndDragging(_ pagerView: FSPagerView, targetIndex: Int) {
+        guard let pagerViewCurrentVideoCell = pagerView.cellForItem(at: pagerView.currentIndex) as? PagerViewVideoCell, let pagerViewTargetVideoCell = pagerView.cellForItem(at: targetIndex) as? PagerViewVideoCell else { return }
+        pagerViewCurrentVideoCell.pauseVideo()
+        pagerViewTargetVideoCell.playVideo()
     }
 }

@@ -2,8 +2,8 @@
 //  FSPagerView+Reusable.swift
 //  FerrisCarousel
 //
-//  Created by Nayem BJIT on 1/16/19.
-//  Copyright © 2019 BJIT Ltd. All rights reserved.
+//  Created by Nayem on 1/16/19.
+//  Copyright © 2019 Mufakkharul Islam Nayem. All rights reserved.
 //
 
 import UIKit

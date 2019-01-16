@@ -10,7 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    private let imageNames = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg"]
+    private let videos = Video.allVideos()
 
     @IBOutlet private weak var pagerView: FSPagerView! {
         didSet {
@@ -36,13 +36,13 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: FSPagerViewDataSource {
     func numberOfItems(in pagerView: FSPagerView) -> Int {
-        return imageNames.count
+        return videos.count
     }
 
     func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
         let cell = PagerViewVideoCell.dequeue(fromPagerView: pagerView, atIndex: index)
-        let imageName = imageNames[index]
-        cell.thumbnailImageView.image = UIImage(named: imageName)
+        let video = videos[index]
+        cell.thumbnailImageView.downloaded(from: video.thumbnailImageURL, contentMode: .scaleToFill)
         return cell
     }
 }

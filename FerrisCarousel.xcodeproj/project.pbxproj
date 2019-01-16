@@ -26,6 +26,8 @@
 		AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */; };
 		AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */; };
 		AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */; };
+		AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7754E21EF714B00CA7E11 /* Video.swift */; };
+		AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
 		AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
 		AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFSPagerViewTransformer.swift; sourceTree = "<group>"; };
+		AFC7754E21EF714B00CA7E11 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		AF50F42721EF373D001F53FA /* Protocols+Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */,
 				AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */,
 				AF50F42921EF373D001F53FA /* Reusable.swift */,
 			);
@@ -104,6 +109,7 @@
 				AFAC506021EF04D9005E4155 /* AppDelegate.swift */,
 				AFAC508421EF066C005E4155 /* FSPagerViewCustomization */,
 				AFAC507221EF0596005E4155 /* FSPagerView */,
+				AFC7754D21EF70FB00CA7E11 /* Model */,
 				AF292DF921EF31F100855937 /* Views */,
 				AFAC508721EF16BD005E4155 /* Controllers */,
 				AF50F42721EF373D001F53FA /* Protocols+Extensions */,
@@ -154,6 +160,14 @@
 				AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AFC7754D21EF70FB00CA7E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7754E21EF714B00CA7E11 /* Video.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */,
 				AF50F42A21EF373E001F53FA /* UICollectionView+Reusable.swift in Sources */,
 				AFAC506321EF04D9005E4155 /* HomeViewController.swift in Sources */,
 				AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */,
@@ -241,6 +256,7 @@
 				AF292DFE21EF329400855937 /* PagerViewVideoCell.swift in Sources */,
 				AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */,
 				AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */,
+				AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */,
 				AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */,
 				AF50F42D21EF382C001F53FA /* FSPagerView+Reusable.swift in Sources */,
 			);

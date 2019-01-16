@@ -9,7 +9,9 @@
 import UIKit
 
 class PagerViewVideoCell: FSPagerViewCell {
-
+    
+    @IBOutlet weak var thumbnailImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

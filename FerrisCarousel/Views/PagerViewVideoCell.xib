@@ -21,7 +21,18 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHv-Gg-8wZ">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gBi-C5-fBe">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gBi-C5-fBe" firstAttribute="leading" secondItem="UHv-Gg-8wZ" secondAttribute="leading" id="CfV-5O-Zes"/>
+                            <constraint firstAttribute="bottom" secondItem="gBi-C5-fBe" secondAttribute="bottom" id="Czw-DA-sh7"/>
+                            <constraint firstAttribute="trailing" secondItem="gBi-C5-fBe" secondAttribute="trailing" id="qOA-bT-eN4"/>
+                            <constraint firstItem="gBi-C5-fBe" firstAttribute="top" secondItem="UHv-Gg-8wZ" secondAttribute="top" id="v2b-PE-6T7"/>
+                        </constraints>
                     </view>
                 </subviews>
             </view>
@@ -33,6 +44,9 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="200" height="200"/>
+            <connections>
+                <outlet property="thumbnailImageView" destination="gBi-C5-fBe" id="Ekk-a2-lIj"/>
+            </connections>
             <point key="canvasLocation" x="252.80000000000001" y="222.1889055472264"/>
         </collectionViewCell>
     </objects>

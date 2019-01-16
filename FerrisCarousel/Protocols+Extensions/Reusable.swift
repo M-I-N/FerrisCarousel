@@ -2,8 +2,8 @@
 //  UICollectionView+Reusable.swift
 //  PlayerBelowScroller
 //
-//  Created by Nayem BJIT on 12/19/18.
-//  Copyright © 2018 BJIT Ltd. All rights reserved.
+//  Created by Nayem on 12/19/18.
+//  Copyright © 2019 Mufakkharul Islam Nayem. All rights reserved.
 //
 
 import UIKit

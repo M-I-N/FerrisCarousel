@@ -19,6 +19,7 @@ public enum FSPagerViewTransformerType: Int {
     case ferrisWheel
     case invertedFerrisWheel
     case cubic
+    case invertedFerrisWheelWithScaling
 }
 
 open class FSPagerViewTransformer: NSObject {
@@ -231,6 +232,8 @@ open class FSPagerViewTransformer: NSObject {
                 attributes.alpha = 0
                 attributes.zIndex = 0
             }
+        default:
+            break
         }
     }
     

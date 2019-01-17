@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVKit
 
 class PagerViewVideoCell: FSPagerViewCell {
     
@@ -14,6 +15,7 @@ class PagerViewVideoCell: FSPagerViewCell {
         didSet {
             if let video = video {
                 thumbnailImageView.downloaded(from: video.thumbnailImageURL, contentMode: .scaleToFill)
+                videoPlayerViewController.video = video
             }
         }
     }
@@ -32,12 +34,31 @@ class PagerViewVideoCell: FSPagerViewCell {
         return cell
     }
     
+    private lazy var videoPlayerViewController = {
+        return VideoPlayerViewController()
+    }()
+    
+    func addViewController(to parentViewController: UIViewController) {
+        parentViewController.addChild(videoPlayerViewController)
+        videoPlayerViewController.didMove(toParent: parentViewController)
+        videoPlayerViewController.view.frame = contentView.bounds
+        contentView.addSubview(videoPlayerViewController.view)
+    }
+    
+    func removeViewControllerFromParentController() {
+        videoPlayerViewController.view.removeFromSuperview()
+        videoPlayerViewController.willMove(toParent: nil)
+        videoPlayerViewController.removeFromParent()
+    }
+    
     func playVideo() {
         print("\(video!.thumbnailImageURL.lastPathComponent) is playing")
+        videoPlayerViewController.player?.play()
     }
     
     func pauseVideo() {
         print("\(video!.thumbnailImageURL.lastPathComponent) is paused")
+        videoPlayerViewController.player?.pause()
     }
 
 }

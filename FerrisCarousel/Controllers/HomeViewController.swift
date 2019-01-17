@@ -46,3 +46,9 @@ extension HomeViewController: FSPagerViewDataSource {
         return cell
     }
 }
+
+extension HomeViewController: FSPagerViewDelegate {
+    func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
+//        let cellRect = pagerView.rectForCell(at: index)
+    }
+}

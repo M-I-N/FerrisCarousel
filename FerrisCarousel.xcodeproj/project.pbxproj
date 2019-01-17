@@ -28,6 +28,7 @@
 		AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */; };
 		AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7754E21EF714B00CA7E11 /* Video.swift */; };
 		AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */; };
+		AFEC0C6B21F0487C00FED91E /* FSPagerView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFSPagerViewTransformer.swift; sourceTree = "<group>"; };
 		AFC7754E21EF714B00CA7E11 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FSPagerView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */,
 				AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */,
 				AF50F42921EF373D001F53FA /* Reusable.swift */,
+				AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */,
 			);
 			path = "Protocols+Extensions";
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				AFAC507D21EF0596005E4155 /* FSPagerViewTransformer.swift in Sources */,
 				AF50F42B21EF373E001F53FA /* Reusable.swift in Sources */,
 				AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */,
+				AFEC0C6B21F0487C00FED91E /* FSPagerView+Extension.swift in Sources */,
 				AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */,
 				AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */,
 				AF292DFE21EF329400855937 /* PagerViewVideoCell.swift in Sources */,

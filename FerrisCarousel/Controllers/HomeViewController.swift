@@ -11,6 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     private let videos = Video.allVideos()
+    private var isFirstCellVideoPlayed = false
 
     @IBOutlet private weak var pagerView: FSPagerView! {
         didSet {
@@ -23,6 +24,7 @@ class HomeViewController: UIViewController {
             pagerView.isInfinite = true
 
             pagerView.dataSource = self
+            pagerView.delegate = self
         }
     }
 
@@ -48,7 +50,33 @@ extension HomeViewController: FSPagerViewDataSource {
 }
 
 extension HomeViewController: FSPagerViewDelegate {
+    func pagerView(_ pagerView: FSPagerView, willDisplay cell: FSPagerViewCell, forItemAt index: Int) {
+        if let centermostCell = pagerView.centerMostCompletelyVisibleCell as? PagerViewVideoCell {
+//            guard let video = videos.first(where: { $0 == centermostCell.video }) else { return }
+//            print(video.thumbnailImageURL.lastPathComponent)
+            if pagerView.index(for: centermostCell) == 0 {
+                // first cell displayed
+                if isFirstCellVideoPlayed {
+                    // pause
+                    centermostCell.pauseVideo()
+                } else {
+                    // play
+                    centermostCell.playVideo()
+                    isFirstCellVideoPlayed = true
+                }
+            } else {
+                // other cell goes out of screen
+                // pause
+                centermostCell.pauseVideo()
+            }
+        }
+    }
     func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
-//        let cellRect = pagerView.rectForCell(at: index)
+        if let centermostCell = pagerView.centerMostCompletelyVisibleCell as? PagerViewVideoCell {
+//            guard let video = videos.first(where: { $0 == centermostCell.video }) else { return }
+//            print(video.thumbnailImageURL.lastPathComponent)
+            // play
+            centermostCell.playVideo()
+        }
     }
 }

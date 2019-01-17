@@ -31,5 +31,13 @@ class PagerViewVideoCell: FSPagerViewCell {
         }
         return cell
     }
+    
+    func playVideo() {
+        print("\(video!.thumbnailImageURL.lastPathComponent) is playing")
+    }
+    
+    func pauseVideo() {
+        print("\(video!.thumbnailImageURL.lastPathComponent) is paused")
+    }
 
 }

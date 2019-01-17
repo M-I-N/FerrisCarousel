@@ -34,15 +34,13 @@ class PagerViewVideoCell: FSPagerViewCell {
         return cell
     }
     
-    private lazy var videoPlayerViewController = {
-        return VideoPlayerViewController()
-    }()
+    private let videoPlayerViewController = VideoPlayerViewController()
     
     func addViewController(to parentViewController: UIViewController) {
         parentViewController.addChild(videoPlayerViewController)
         videoPlayerViewController.didMove(toParent: parentViewController)
         videoPlayerViewController.view.frame = contentView.bounds
-        contentView.addSubview(videoPlayerViewController.view)
+        contentView.insertSubview(videoPlayerViewController.view, belowSubview: thumbnailImageView)
     }
     
     func removeViewControllerFromParentController() {
@@ -52,13 +50,19 @@ class PagerViewVideoCell: FSPagerViewCell {
     }
     
     func playVideo() {
-        print("\(video!.thumbnailImageURL.lastPathComponent) is playing")
-        videoPlayerViewController.player?.play()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            print("\(self.video!.thumbnailImageURL.lastPathComponent) is playing")
+            self.videoPlayerViewController.player?.play()
+            self.thumbnailImageView.isHidden = true
+        }
     }
     
     func pauseVideo() {
-        print("\(video!.thumbnailImageURL.lastPathComponent) is paused")
-        videoPlayerViewController.player?.pause()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            print("\(self.video!.thumbnailImageURL.lastPathComponent) is paused")
+            self.videoPlayerViewController.player?.pause()
+            self.thumbnailImageView.isHidden = false
+        }
     }
 
 }

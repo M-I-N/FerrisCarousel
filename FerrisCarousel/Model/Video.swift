@@ -15,11 +15,18 @@ struct Video: Equatable {
     
     static func allVideos() -> [Video] {
         
+        // use local video files. but keep in mind to add those resrouces
+//        let videoURLs = [ Bundle.main.url(forResource: "BigBuckBunny", withExtension: ".mp4"),
+//                          Bundle.main.url(forResource: "ElephantsDream", withExtension: ".mp4"),
+//                          Bundle.main.url(forResource: "Sintel", withExtension: ".mp4"),
+//                          Bundle.main.url(forResource: "TearsOfSteel", withExtension: ".mp4")
+//                        ].compactMap { $0 }
+        
         let videoURLs = [ URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"),
                           URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"),
                           URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"),
                           URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4")
-                        ].compactMap { $0 }
+            ].compactMap { $0 }
         
         let videoThumbnailImages = [ URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"),
                                      URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg"),

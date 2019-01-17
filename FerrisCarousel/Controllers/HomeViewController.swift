@@ -50,6 +50,7 @@ extension HomeViewController: FSPagerViewDataSource {
 }
 
 extension HomeViewController: FSPagerViewDelegate {
+    
     func pagerView(_ pagerView: FSPagerView, willDisplay cell: FSPagerViewCell, forItemAt index: Int) {
         guard let pagerViewVideoCell = cell as? PagerViewVideoCell else { return }
         pagerViewVideoCell.addViewController(to: self)
@@ -73,20 +74,16 @@ extension HomeViewController: FSPagerViewDelegate {
             }
         }
     }
+    
     func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
+        guard let pagerViewVideoCell = cell as? PagerViewVideoCell else { return }
+        pagerViewVideoCell.removeViewControllerFromParentController()
         if let centermostCell = pagerView.centerMostCompletelyVisibleCell as? PagerViewVideoCell {
 //            guard let video = videos.first(where: { $0 == centermostCell.video }) else { return }
 //            print(video.thumbnailImageURL.lastPathComponent)
             // play
             centermostCell.playVideo()
         }
-        guard let pagerViewVideoCell = cell as? PagerViewVideoCell else { return }
-        pagerViewVideoCell.removeViewControllerFromParentController()
     }
     
-    func pagerViewWillEndDragging(_ pagerView: FSPagerView, targetIndex: Int) {
-        guard let pagerViewCurrentVideoCell = pagerView.cellForItem(at: pagerView.currentIndex) as? PagerViewVideoCell, let pagerViewTargetVideoCell = pagerView.cellForItem(at: targetIndex) as? PagerViewVideoCell else { return }
-        pagerViewCurrentVideoCell.pauseVideo()
-        pagerViewTargetVideoCell.playVideo()
-    }
 }

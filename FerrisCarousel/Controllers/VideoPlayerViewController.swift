@@ -12,13 +12,14 @@ import AVKit
 class VideoPlayerViewController: AVPlayerViewController {
     
     var video: Video?
-    var allowAutoPlay = true
     
     private let imageView = UIImageView()
     private var playbackModeObservationToken: NSKeyValueObservation?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        showsPlaybackControls = false
+        videoGravity = .resizeAspectFill
         // add the image view to the content overlay view so that image will be shown below the player controls
 //        contentOverlayView?.addSubview(imageView)
         // safely unwrap video object, download thumbnail image & creaate player item

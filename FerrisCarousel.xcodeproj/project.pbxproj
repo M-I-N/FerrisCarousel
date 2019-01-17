@@ -1,471 +1,471 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 50;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        AF292DFE21EF329400855937 /* PagerViewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF292DFC21EF329400855937 /* PagerViewVideoCell.swift */; };
-        AF292DFF21EF329400855937 /* PagerViewVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF292DFD21EF329400855937 /* PagerViewVideoCell.xib */; };
-        AF50F42A21EF373E001F53FA /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */; };
-        AF50F42B21EF373E001F53FA /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50F42921EF373D001F53FA /* Reusable.swift */; };
-        AF50F42D21EF382C001F53FA /* FSPagerView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50F42C21EF382C001F53FA /* FSPagerView+Reusable.swift */; };
-        AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC506021EF04D9005E4155 /* AppDelegate.swift */; };
-        AFAC506321EF04D9005E4155 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC506221EF04D9005E4155 /* HomeViewController.swift */; };
-        AFAC506621EF04D9005E4155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506421EF04D9005E4155 /* Main.storyboard */; };
-        AFAC506821EF04E1005E4155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506721EF04E1005E4155 /* Assets.xcassets */; };
-        AFAC506B21EF04E1005E4155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */; };
-        AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507321EF0596005E4155 /* FSPagerView.swift */; };
-        AFAC507D21EF0596005E4155 /* FSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507421EF0596005E4155 /* FSPagerViewTransformer.swift */; };
-        AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */; };
-        AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */; };
-        AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */; };
-        AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507921EF0596005E4155 /* FSPageControl.swift */; };
-        AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */; };
-        AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */; };
-        AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */; };
-        AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7754E21EF714B00CA7E11 /* Video.swift */; };
-        AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */; };
-		AFEC0C6B21F0487C00FED91E /* FSPagerView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */; };
+		AF292DFE21EF329400855937 /* PagerViewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF292DFC21EF329400855937 /* PagerViewVideoCell.swift */; };
+		AF292DFF21EF329400855937 /* PagerViewVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF292DFD21EF329400855937 /* PagerViewVideoCell.xib */; };
+		AF50F42A21EF373E001F53FA /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */; };
+		AF50F42B21EF373E001F53FA /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50F42921EF373D001F53FA /* Reusable.swift */; };
+		AF50F42D21EF382C001F53FA /* FSPagerView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50F42C21EF382C001F53FA /* FSPagerView+Reusable.swift */; };
+		AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC506021EF04D9005E4155 /* AppDelegate.swift */; };
+		AFAC506321EF04D9005E4155 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC506221EF04D9005E4155 /* HomeViewController.swift */; };
+		AFAC506621EF04D9005E4155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506421EF04D9005E4155 /* Main.storyboard */; };
+		AFAC506821EF04E1005E4155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506721EF04E1005E4155 /* Assets.xcassets */; };
+		AFAC506B21EF04E1005E4155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */; };
+		AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507321EF0596005E4155 /* FSPagerView.swift */; };
+		AFAC507D21EF0596005E4155 /* FSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507421EF0596005E4155 /* FSPagerViewTransformer.swift */; };
+		AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */; };
+		AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */; };
+		AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */; };
+		AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507921EF0596005E4155 /* FSPageControl.swift */; };
+		AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */; };
+		AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */; };
+		AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */; };
+		AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7754E21EF714B00CA7E11 /* Video.swift */; };
+		AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */; };
 		AFC7755321EF805700CA7E11 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */; };
+		AFEC0C6B21F0487C00FED91E /* FSPagerView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-        AF292DFC21EF329400855937 /* PagerViewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewVideoCell.swift; sourceTree = "<group>"; };
-        AF292DFD21EF329400855937 /* PagerViewVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagerViewVideoCell.xib; sourceTree = "<group>"; };
-        AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
-        AF50F42921EF373D001F53FA /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-        AF50F42C21EF382C001F53FA /* FSPagerView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FSPagerView+Reusable.swift"; sourceTree = "<group>"; };
-        AFAC505D21EF04D9005E4155 /* FerrisCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FerrisCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        AFAC506021EF04D9005E4155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        AFAC506221EF04D9005E4155 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-        AFAC506521EF04D9005E4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        AFAC506721EF04E1005E4155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        AFAC506A21EF04E1005E4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        AFAC506C21EF04E1005E4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        AFAC507321EF0596005E4155 /* FSPagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerView.swift; sourceTree = "<group>"; };
-        AFAC507421EF0596005E4155 /* FSPagerViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewTransformer.swift; sourceTree = "<group>"; };
-        AFAC507521EF0596005E4155 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
-        AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewCell.swift; sourceTree = "<group>"; };
-        AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
-        AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewLayout.swift; sourceTree = "<group>"; };
-        AFAC507921EF0596005E4155 /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
-        AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
-        AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
-        AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFSPagerViewTransformer.swift; sourceTree = "<group>"; };
-        AFC7754E21EF714B00CA7E11 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-        AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
-		AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FSPagerView+Extension.swift"; sourceTree = "<group>"; };
+		AF292DFC21EF329400855937 /* PagerViewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewVideoCell.swift; sourceTree = "<group>"; };
+		AF292DFD21EF329400855937 /* PagerViewVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagerViewVideoCell.xib; sourceTree = "<group>"; };
+		AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		AF50F42921EF373D001F53FA /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		AF50F42C21EF382C001F53FA /* FSPagerView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FSPagerView+Reusable.swift"; sourceTree = "<group>"; };
+		AFAC505D21EF04D9005E4155 /* FerrisCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FerrisCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAC506021EF04D9005E4155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFAC506221EF04D9005E4155 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFAC506521EF04D9005E4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAC506721EF04E1005E4155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFAC506A21EF04E1005E4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFAC506C21EF04E1005E4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAC507321EF0596005E4155 /* FSPagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerView.swift; sourceTree = "<group>"; };
+		AFAC507421EF0596005E4155 /* FSPagerViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewTransformer.swift; sourceTree = "<group>"; };
+		AFAC507521EF0596005E4155 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewCell.swift; sourceTree = "<group>"; };
+		AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewLayout.swift; sourceTree = "<group>"; };
+		AFAC507921EF0596005E4155 /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
+		AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
+		AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFSPagerViewTransformer.swift; sourceTree = "<group>"; };
+		AFC7754E21EF714B00CA7E11 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FSPagerView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        AFAC505A21EF04D9005E4155 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		AFAC505A21EF04D9005E4155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        AF292DF921EF31F100855937 /* Views */ = {
-            isa = PBXGroup;
-            children = (
-                AF292DFC21EF329400855937 /* PagerViewVideoCell.swift */,
-                AF292DFD21EF329400855937 /* PagerViewVideoCell.xib */,
-            );
-            path = Views;
-            sourceTree = "<group>";
-        };
-        AF50F42721EF373D001F53FA /* Protocols+Extensions */ = {
-            isa = PBXGroup;
-            children = (
-                AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */,
-                AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */,
-                AF50F42921EF373D001F53FA /* Reusable.swift */,
-                AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */,
-            );
-            path = "Protocols+Extensions";
-            sourceTree = "<group>";
-        };
-        AFAC505421EF04D9005E4155 = {
-            isa = PBXGroup;
-            children = (
-                AFAC505F21EF04D9005E4155 /* FerrisCarousel */,
-                AFAC505E21EF04D9005E4155 /* Products */,
-            );
-            sourceTree = "<group>";
-        };
-        AFAC505E21EF04D9005E4155 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                AFAC505D21EF04D9005E4155 /* FerrisCarousel.app */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        AFAC505F21EF04D9005E4155 /* FerrisCarousel */ = {
-            isa = PBXGroup;
-            children = (
-                AFAC506021EF04D9005E4155 /* AppDelegate.swift */,
-                AFAC508421EF066C005E4155 /* FSPagerViewCustomization */,
-                AFAC507221EF0596005E4155 /* FSPagerView */,
-                AFC7754D21EF70FB00CA7E11 /* Model */,
-                AF292DF921EF31F100855937 /* Views */,
-                AFAC508721EF16BD005E4155 /* Controllers */,
-                AF50F42721EF373D001F53FA /* Protocols+Extensions */,
-                AFAC508821EF16D7005E4155 /* Storyboards */,
-                AFAC506721EF04E1005E4155 /* Assets.xcassets */,
-                AFAC506C21EF04E1005E4155 /* Info.plist */,
-            );
-            path = FerrisCarousel;
-            sourceTree = "<group>";
-        };
-        AFAC507221EF0596005E4155 /* FSPagerView */ = {
-            isa = PBXGroup;
-            children = (
-                AFAC507321EF0596005E4155 /* FSPagerView.swift */,
-                AFAC507421EF0596005E4155 /* FSPagerViewTransformer.swift */,
-                AFAC507521EF0596005E4155 /* FSPagerViewObjcCompat.h */,
-                AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */,
-                AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */,
-                AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */,
-                AFAC507921EF0596005E4155 /* FSPageControl.swift */,
-                AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */,
-                AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */,
-            );
-            path = FSPagerView;
-            sourceTree = "<group>";
-        };
-        AFAC508421EF066C005E4155 /* FSPagerViewCustomization */ = {
-            isa = PBXGroup;
-            children = (
-                AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */,
-                AF50F42C21EF382C001F53FA /* FSPagerView+Reusable.swift */,
-            );
-            path = FSPagerViewCustomization;
-            sourceTree = "<group>";
-        };
-        AFAC508721EF16BD005E4155 /* Controllers */ = {
-            isa = PBXGroup;
-            children = (
-                AFAC506221EF04D9005E4155 /* HomeViewController.swift */,
-                AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */,
-            );
-            path = Controllers;
-            sourceTree = "<group>";
-        };
-        AFAC508821EF16D7005E4155 /* Storyboards */ = {
-            isa = PBXGroup;
-            children = (
-                AFAC506421EF04D9005E4155 /* Main.storyboard */,
-                AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */,
-            );
-            path = Storyboards;
-            sourceTree = "<group>";
-        };
-        AFC7754D21EF70FB00CA7E11 /* Model */ = {
-            isa = PBXGroup;
-            children = (
-                AFC7754E21EF714B00CA7E11 /* Video.swift */,
-            );
-            path = Model;
-            sourceTree = "<group>";
-        };
+		AF292DF921EF31F100855937 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF292DFC21EF329400855937 /* PagerViewVideoCell.swift */,
+				AF292DFD21EF329400855937 /* PagerViewVideoCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF50F42721EF373D001F53FA /* Protocols+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7755021EF719400CA7E11 /* UIImageView+Download.swift */,
+				AF50F42821EF373D001F53FA /* UICollectionView+Reusable.swift */,
+				AF50F42921EF373D001F53FA /* Reusable.swift */,
+				AFEC0C6A21F0487C00FED91E /* FSPagerView+Extension.swift */,
+			);
+			path = "Protocols+Extensions";
+			sourceTree = "<group>";
+		};
+		AFAC505421EF04D9005E4155 = {
+			isa = PBXGroup;
+			children = (
+				AFAC505F21EF04D9005E4155 /* FerrisCarousel */,
+				AFAC505E21EF04D9005E4155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAC505E21EF04D9005E4155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC505D21EF04D9005E4155 /* FerrisCarousel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAC505F21EF04D9005E4155 /* FerrisCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC506021EF04D9005E4155 /* AppDelegate.swift */,
+				AFAC508421EF066C005E4155 /* FSPagerViewCustomization */,
+				AFAC507221EF0596005E4155 /* FSPagerView */,
+				AFC7754D21EF70FB00CA7E11 /* Model */,
+				AF292DF921EF31F100855937 /* Views */,
+				AFAC508721EF16BD005E4155 /* Controllers */,
+				AF50F42721EF373D001F53FA /* Protocols+Extensions */,
+				AFAC508821EF16D7005E4155 /* Storyboards */,
+				AFAC506721EF04E1005E4155 /* Assets.xcassets */,
+				AFAC506C21EF04E1005E4155 /* Info.plist */,
+			);
+			path = FerrisCarousel;
+			sourceTree = "<group>";
+		};
+		AFAC507221EF0596005E4155 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC507321EF0596005E4155 /* FSPagerView.swift */,
+				AFAC507421EF0596005E4155 /* FSPagerViewTransformer.swift */,
+				AFAC507521EF0596005E4155 /* FSPagerViewObjcCompat.h */,
+				AFAC507621EF0596005E4155 /* FSPagerViewCell.swift */,
+				AFAC507721EF0596005E4155 /* FSPagerViewLayoutAttributes.swift */,
+				AFAC507821EF0596005E4155 /* FSPageViewLayout.swift */,
+				AFAC507921EF0596005E4155 /* FSPageControl.swift */,
+				AFAC507A21EF0596005E4155 /* FSPagerViewObjcCompat.m */,
+				AFAC507B21EF0596005E4155 /* FSPagerCollectionView.swift */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		AFAC508421EF066C005E4155 /* FSPagerViewCustomization */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC508521EF06CF005E4155 /* CustomFSPagerViewTransformer.swift */,
+				AF50F42C21EF382C001F53FA /* FSPagerView+Reusable.swift */,
+			);
+			path = FSPagerViewCustomization;
+			sourceTree = "<group>";
+		};
+		AFAC508721EF16BD005E4155 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC506221EF04D9005E4155 /* HomeViewController.swift */,
+				AFC7755221EF805700CA7E11 /* VideoPlayerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFAC508821EF16D7005E4155 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC506421EF04D9005E4155 /* Main.storyboard */,
+				AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AFC7754D21EF70FB00CA7E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7754E21EF714B00CA7E11 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        AFAC505C21EF04D9005E4155 /* FerrisCarousel */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = AFAC506F21EF04E1005E4155 /* Build configuration list for PBXNativeTarget "FerrisCarousel" */;
-            buildPhases = (
-                AFAC505921EF04D9005E4155 /* Sources */,
-                AFAC505A21EF04D9005E4155 /* Frameworks */,
-                AFAC505B21EF04D9005E4155 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = FerrisCarousel;
-            productName = FerrisCarousel;
-            productReference = AFAC505D21EF04D9005E4155 /* FerrisCarousel.app */;
-            productType = "com.apple.product-type.application";
-        };
+		AFAC505C21EF04D9005E4155 /* FerrisCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAC506F21EF04E1005E4155 /* Build configuration list for PBXNativeTarget "FerrisCarousel" */;
+			buildPhases = (
+				AFAC505921EF04D9005E4155 /* Sources */,
+				AFAC505A21EF04D9005E4155 /* Frameworks */,
+				AFAC505B21EF04D9005E4155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FerrisCarousel;
+			productName = FerrisCarousel;
+			productReference = AFAC505D21EF04D9005E4155 /* FerrisCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        AFAC505521EF04D9005E4155 /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 1010;
-                LastUpgradeCheck = 1010;
-                ORGANIZATIONNAME = "Mufakkharul Islam Nayem";
-                TargetAttributes = {
-                    AFAC505C21EF04D9005E4155 = {
-                        CreatedOnToolsVersion = 10.1;
-                    };
-                };
-            };
-            buildConfigurationList = AFAC505821EF04D9005E4155 /* Build configuration list for PBXProject "FerrisCarousel" */;
-            compatibilityVersion = "Xcode 9.3";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = AFAC505421EF04D9005E4155;
-            productRefGroup = AFAC505E21EF04D9005E4155 /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                AFAC505C21EF04D9005E4155 /* FerrisCarousel */,
-            );
-        };
+		AFAC505521EF04D9005E4155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mufakkharul Islam Nayem";
+				TargetAttributes = {
+					AFAC505C21EF04D9005E4155 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AFAC505821EF04D9005E4155 /* Build configuration list for PBXProject "FerrisCarousel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAC505421EF04D9005E4155;
+			productRefGroup = AFAC505E21EF04D9005E4155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAC505C21EF04D9005E4155 /* FerrisCarousel */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        AFAC505B21EF04D9005E4155 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                AF292DFF21EF329400855937 /* PagerViewVideoCell.xib in Resources */,
-                AFAC506B21EF04E1005E4155 /* LaunchScreen.storyboard in Resources */,
-                AFAC506821EF04E1005E4155 /* Assets.xcassets in Resources */,
-                AFAC506621EF04D9005E4155 /* Main.storyboard in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		AFAC505B21EF04D9005E4155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF292DFF21EF329400855937 /* PagerViewVideoCell.xib in Resources */,
+				AFAC506B21EF04E1005E4155 /* LaunchScreen.storyboard in Resources */,
+				AFAC506821EF04E1005E4155 /* Assets.xcassets in Resources */,
+				AFAC506621EF04D9005E4155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        AFAC505921EF04D9005E4155 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */,
-                AF50F42A21EF373E001F53FA /* UICollectionView+Reusable.swift in Sources */,
-                AFAC506321EF04D9005E4155 /* HomeViewController.swift in Sources */,
-                AFC7755321EF805700CA7E11 /* VideoPlayerViewController.swift in Sources */,
-                AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */,
-                AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */,
-                AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */,
-                AFAC507D21EF0596005E4155 /* FSPagerViewTransformer.swift in Sources */,
-                AF50F42B21EF373E001F53FA /* Reusable.swift in Sources */,
-                AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */,
-                AFEC0C6B21F0487C00FED91E /* FSPagerView+Extension.swift in Sources */,
-                AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */,
-                AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */,
-                AF292DFE21EF329400855937 /* PagerViewVideoCell.swift in Sources */,
-                AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */,
-                AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */,
-                AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */,
-                AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */,
-                AF50F42D21EF382C001F53FA /* FSPagerView+Reusable.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		AFAC505921EF04D9005E4155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC7755121EF719400CA7E11 /* UIImageView+Download.swift in Sources */,
+				AF50F42A21EF373E001F53FA /* UICollectionView+Reusable.swift in Sources */,
+				AFAC506321EF04D9005E4155 /* HomeViewController.swift in Sources */,
+				AFC7755321EF805700CA7E11 /* VideoPlayerViewController.swift in Sources */,
+				AFAC506121EF04D9005E4155 /* AppDelegate.swift in Sources */,
+				AFAC508621EF06CF005E4155 /* CustomFSPagerViewTransformer.swift in Sources */,
+				AFAC507E21EF0596005E4155 /* FSPagerViewCell.swift in Sources */,
+				AFAC507D21EF0596005E4155 /* FSPagerViewTransformer.swift in Sources */,
+				AF50F42B21EF373E001F53FA /* Reusable.swift in Sources */,
+				AFAC507F21EF0596005E4155 /* FSPagerViewLayoutAttributes.swift in Sources */,
+				AFEC0C6B21F0487C00FED91E /* FSPagerView+Extension.swift in Sources */,
+				AFAC508221EF0596005E4155 /* FSPagerViewObjcCompat.m in Sources */,
+				AFAC508121EF0596005E4155 /* FSPageControl.swift in Sources */,
+				AF292DFE21EF329400855937 /* PagerViewVideoCell.swift in Sources */,
+				AFAC508321EF0596005E4155 /* FSPagerCollectionView.swift in Sources */,
+				AFAC507C21EF0596005E4155 /* FSPagerView.swift in Sources */,
+				AFC7754F21EF714B00CA7E11 /* Video.swift in Sources */,
+				AFAC508021EF0596005E4155 /* FSPageViewLayout.swift in Sources */,
+				AF50F42D21EF382C001F53FA /* FSPagerView+Reusable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-        AFAC506421EF04D9005E4155 /* Main.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                AFAC506521EF04D9005E4155 /* Base */,
-            );
-            name = Main.storyboard;
-            sourceTree = "<group>";
-        };
-        AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                AFAC506A21EF04E1005E4155 /* Base */,
-            );
-            name = LaunchScreen.storyboard;
-            sourceTree = "<group>";
-        };
+		AFAC506421EF04D9005E4155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAC506521EF04D9005E4155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAC506921EF04E1005E4155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAC506A21EF04E1005E4155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-        AFAC506D21EF04E1005E4155 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-                MTL_FAST_MATH = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        AFAC506E21EF04E1005E4155 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                MTL_FAST_MATH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_COMPILATION_MODE = wholemodule;
-                SWIFT_OPTIMIZATION_LEVEL = "-O";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        AFAC507021EF04E1005E4155 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = EJHMZ3UG6B;
-                INFOPLIST_FILE = FerrisCarousel/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.nayem.FerrisCarousel;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        AFAC507121EF04E1005E4155 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = EJHMZ3UG6B;
-                INFOPLIST_FILE = FerrisCarousel/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.nayem.FerrisCarousel;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
+		AFAC506D21EF04E1005E4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFAC506E21EF04E1005E4155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAC507021EF04E1005E4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJHMZ3UG6B;
+				INFOPLIST_FILE = FerrisCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nayem.FerrisCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFAC507121EF04E1005E4155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJHMZ3UG6B;
+				INFOPLIST_FILE = FerrisCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nayem.FerrisCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        AFAC505821EF04D9005E4155 /* Build configuration list for PBXProject "FerrisCarousel" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                AFAC506D21EF04E1005E4155 /* Debug */,
-                AFAC506E21EF04E1005E4155 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        AFAC506F21EF04E1005E4155 /* Build configuration list for PBXNativeTarget "FerrisCarousel" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                AFAC507021EF04E1005E4155 /* Debug */,
-                AFAC507121EF04E1005E4155 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		AFAC505821EF04D9005E4155 /* Build configuration list for PBXProject "FerrisCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAC506D21EF04E1005E4155 /* Debug */,
+				AFAC506E21EF04E1005E4155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAC506F21EF04E1005E4155 /* Build configuration list for PBXNativeTarget "FerrisCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAC507021EF04E1005E4155 /* Debug */,
+				AFAC507121EF04E1005E4155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-    };
-    rootObject = AFAC505521EF04D9005E4155 /* Project object */;
+	};
+	rootObject = AFAC505521EF04D9005E4155 /* Project object */;
 }
